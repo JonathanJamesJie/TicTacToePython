@@ -102,7 +102,7 @@ def display_board(board):
 
     print('Welcome to Tic Tac Toe!')
 
-while True:
+    while True:
     # Reset the board
     theBoard = [' '] * 10
     player1_marker, player2_marker = player_input()
